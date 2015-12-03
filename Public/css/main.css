@@ -1,0 +1,93 @@
+.mainImage {
+display: block;
+height: 50%;
+width: 50%;
+margin: 0 auto;
+}
+
+.background {
+	background-color:  #000000;
+}
+
+
+.enterButton {
+	text-align: center;
+}
+
+.enterButton a {
+	color: white;
+	font-size: 24px;
+	line-height: 2em;
+
+}
+
+.mainHeader {
+	text-align: center;
+}
+
+.navigation {
+	list-style-type: none;
+	display: inline;
+}
+.navbar {
+	background-color: black !important;
+	border-color: black !important;
+	border-radius: 0 !important;
+}
+.links {
+	color: #00EEEE !important;
+	font-size: 20px;
+}
+
+.navbar-nav > li{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.thumbnail1 {
+	display: inline-block;
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+
+}
+.thumbnail2 {
+	display: inline-block;
+	height: 250px;
+	width: 500px;
+	margin: 0 auto;
+
+}
+.mainCollage{
+	margin-left: 15%;
+}
+
+.aboutBackground {
+	/*background-image: url("../../media/2guys.jpg");*/
+	/*opacity: 0.75;*/
+	width: 600px;
+}
+.aboutText {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	color: black;
+	padding-top: 5rem;
+	/*text-shadow: 4px 4px 8px #000000;*/
+	text-align: center;
+}
+.aboutText span {
+	font-size: 3.5rem;
+	
+
+}
+
+@media(max-width: 767px) {
+	.mainImage {
+		margin-left: 5%;
+		max-width: 100px;
+		margin-top: 50px;
+	
+	}
+
+
+
+
