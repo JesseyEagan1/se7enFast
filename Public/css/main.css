@@ -62,9 +62,11 @@ margin: 0 auto;
 }
 
 .aboutBackground {
-	/*background-image: url("../../media/2guys.jpg");*/
-	/*opacity: 0.75;*/
+	padding:1px;
+	border:10px solid #000000;
+	background-color:#000000;
 	width: 600px;
+	margin-bottom: 50px;
 }
 .aboutText {
 	font-family: 'Raleway', sans-serif;
