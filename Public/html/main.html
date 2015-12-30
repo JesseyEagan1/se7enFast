@@ -7,64 +7,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Se7en Fast Home</title>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="../css/main.css">
-	<link rel="stylesheet" href="../css/normalize.css">
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
+  	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.11.0/bootstrap-social.css">
+  	<link rel="stylesheet" href="../css/main.css">
+  	<link rel="stylesheet" href="../css/normalize.css">
 </head>
 <body class="" ng-controller='mainController'>
+  <div class="page-wrap">
+  <header class="mainHeader"><img src="../../media/SE7ENBanner.jpg"></header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
-<header class="mainHeader"><img src="../../media/SE7ENBanner.jpg"></header>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav links">
+              <li><a class="links" href="#">Home</a></li>
+              <li><a class="links" href="#">About</a></li>
+              <li><a class="links" href="#">How To</a></li>
+              <li><a class="links" href="#">Locate</a></li>
+              <li><a class="links" href="#">Register</a></li>
+              <li><a class="links" href="#">Contact</a></li>
+            </ul>
+          </li>
+   
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!--========================TESTING====================================-->
+  <article class="how-to-page">
+    <ul class="how-to-list" style="list-style-type:none">
+      <li><i class="fa fa-thumbs-up fa-lg"></i></li>
+      <li class="list">Commit<br><span class="list-text">The first step is always the hardest.</span></li>
+      <li><i class="fa fa-mobile  fa-lg"></i></li>
+      <li class="list">Selfie<br><span class="list-text">Share your commitment on social media holding a sign like <a href="../../media/SE7ENFAST-Pledge-Sheet.pdf" alt="Se7en Fast Sign" target="_blank" class="list-text link-text">this</a>!</span></li>
+      <li><i class="fa fa-search  fa-lg"></i></li>
+      <li class="list">Locate and RSVP<br><span class="list-text">Find a SE7EN FEAST near you and reserve a seat at the table <a href="#" alt="Se7en Feast Locate and RSVP" target="_blank" class="list-text link-text">here</a>.</span></li>
+      <li><img src="../../media/cross85.png" height="50" width="50"></li>
+      <li class="list">Fast<br><span class="list-text">Abstain from eating and drinking while the sun is up on 6/7/16.</span></li>
+      <li><i class="fa fa-money  fa-lg"></i></li>
+      <li class="list">Donate<br><span class="list-text">Give what you would have spent on food for the day to <a href="http://my.wfpusa.org/se7enfast16" alt="World Food Programme Link" target="_blank" class="list-text link-text">The World Food Programme</a> or a local food bank.</span></li>
+      <li><img src="../../media/charity6.png" height="50" width="50"></li>
+      <li class="list2" >Feast<br><span class="list-text">Attend the SE7EN FEAST in your area and meet Muslims in your community!</span></li>
+    </ul>
+  </article>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav links">
-            <li><a class="links" href="#">Home</a></li>
-            <li><a class="links" href="#">About</a></li>
-            <li><a class="links" href="#">How To</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a class="links" href="#">Locate</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a class="links" href="#">Register</a></li>
-            <li><a class="links" href="#">Contact</a></li>
+  <!--======================NG VIEW===========================-->
+  <!-- <div ng-view class="overflowHidden">
+      
 
-          </ul>
-        </li>
- 
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-<!--========================TESTING====================================-->
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6 ">
-    <img class="aboutBackground" src="../../media/2guys.jpg">
-    </div>
-    <div class="col-md-6">
-      <p class="aboutText"><span>We believe that relationships are the starting point for peace.</span> <br> <br> <em>SE7EN FAST is that starting point.</em> <br> <br>We created SE7EN FAST in order to make space for non-Muslims and Muslims to begin ongoing life changing and life giving relationships across lines of religious and cultural difference. Now more than ever, we need to embrace our similarities, wrestle with our differences, and create a story in which we discover the pathway of peace together.</p>
-    </div>
-    
-  </div>
+  </div>   -->
 </div>
-
-<!--======================NG VIEW===========================-->
-<!-- <div ng-view class="overflowHidden">
-    
-
-</div>   -->
-
-
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="social-links col-md-4">
+        <h5 class="list-heading">CONNECT WITH US</h5>
+        <ul class="social">
+          <li>
+          <a href="" class="btn btn-social-icon btn-twitter">
+            <span class="fa fa-twitter"></span>
+          </a> 
+          </li>
+          <li>
+            <a class="btn btn-social-icon btn-facebook">
+              <span class="fa fa-facebook"></span>
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-social-icon btn-instagram">
+              <span class="fa fa-instagram"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="counter-body col-md-4">
+        <h1 class="counter-heading">Days Until SE7EN FAST</h1>
+        <div id="clockdiv">
+          <div>
+            <span class="days"></span>
+            <section class="counter-date">June, 7, 2016</section>
+        </div>
+      </div>
+    </div>
+  </div>    
+</div>
+</footer>
+<script type="text/javascript" src="../js/countdown.js"></script>
 </body>
 </html>
