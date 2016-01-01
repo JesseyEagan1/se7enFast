@@ -1,0 +1,31 @@
+{
+  "name": "se7enfast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseyEagan1/se7enFast.git"
+  },
+  "keywords": [
+    "se7enfast",
+    "interfaith",
+    "islam",
+    "muslim",
+    "christian",
+    "ramadan"
+  ],
+  "author": "Jessey Eagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesseyEagan1/se7enFast/issues"
+  },
+  "homepage": "https://github.com/JesseyEagan1/se7enFast#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3"
+  }
+}

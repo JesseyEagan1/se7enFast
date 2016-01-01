@@ -1,3 +1,8 @@
+angular.module('se7enfastApp', []);
+
+angular.module('se7enfastApp').controller('mainController', ['$scope', function($scope) {
+
+
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
   var days = Math.floor(t / (1000 * 60 * 60 * 24));
@@ -27,3 +32,5 @@ function initializeClock(id, endtime) {
 
 var deadline = new Date('06/07/2016');
 initializeClock('clockdiv', deadline);
+
+}]);
