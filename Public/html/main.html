@@ -16,6 +16,7 @@
   <title>Se7en Fast</title>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
   <link rel="stylesheet" href="../css/normalize.css"/>
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Raleway:700, 900'/>
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather+Sans:700'/>
@@ -51,9 +52,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse nav-collapse" id=".navbar-collapse">
         <ul class="nav navbar-nav links">
-          <li><a class="links" href="/home">Home</a></li>
-          <li><a class="links" href="/about">About</a></li>
-          <li><a class="links" href="/howto">How To</a></li>
+          <li><a class="links" ui-sref="home">Home</a></li>
+          <li><a class="links" ui-sref="about">About</a></li>
+          <li><a class="links" ui-sref="howto">How To</a></li>
           <li><a class="links" href="#">Locate</a></li>
           <li><a class="links" href="#">Register</a></li>
           <li><a class="links" href="#">Contact</a></li>
@@ -66,10 +67,7 @@
   <!--========================TESTING====================================-->
 
   <!--======================NG VIEW===========================-->
-  <!-- <div ng-view class="overflowHidden">
-
-
-  </div>   -->
+  <ui-view></ui-view>
 </div>
 <!-------------------FOOTER----------------------------------->
 <footer class="site-footer">
@@ -109,8 +107,6 @@
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.min.js"></script>
 <script type="text/javascript" src="./js/main.js"></script>
-<script type="text/javascript" src="./js/countdown.js"></script>
 </body>
 </html>
