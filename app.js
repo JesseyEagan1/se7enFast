@@ -1,9 +1,8 @@
 // Requires \\
-var http = require('http');
 var express = require('express');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/se7enfast')
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/se7enfast');
 
 // Create Express App Object \\
 var app = express();
@@ -14,13 +13,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
 
 // Routes \\
+
 app.get('/', function(req, res){
-    res.send('Hello')
+    res.sendFile('/html/index.html', {root: './public'});
 });
 
 // Creating Server and Listening for Connections \\
-var port = 3000
+var port = 3000;
 app.listen(port, function(){
     console.log('Server running on port ' + port);
 
-})
+});
