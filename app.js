@@ -17,6 +17,9 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res){
     res.sendFile('/html/index.html', {root: './public'});
 });
+app.get('/main', function(req, res){
+    res.sendFile('/html/main.html', {root: './public'});
+});
 
 // Creating Server and Listening for Connections \\
 var port = 3000;
