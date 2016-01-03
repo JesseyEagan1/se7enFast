@@ -9,6 +9,10 @@ angular.module('se7enfastApp')
                 controller	:'mainController'
             })
 
+            .when('/main', {
+
+            })
+
             .when('/home', {
                 templateUrl	:'/html/home.html',
                 controller	:'mainController'
@@ -24,7 +28,7 @@ angular.module('se7enfastApp')
                 controller	:'mainController'
             })
 
-    })
+    }]);
 
 
 
