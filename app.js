@@ -1,6 +1,9 @@
 // Requires \\
+var http = require('http');
 var express = require('express');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose')
+mongoose.connect('mongodb://localhost/se7enfast')
 
 // Create Express App Object \\
 var app = express();

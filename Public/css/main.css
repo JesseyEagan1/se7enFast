@@ -138,21 +138,23 @@ html, body {
     height: 250px;
     width: 500px;
     margin: 0 auto;
+    /*border-bottom: 2px solid white;*/
 
+}
+
+.longQuote {
+   /*max-height: 246px;*/
+    border-radius: 2px;
+    border-bottom: 1px solid white;
 }
 
 .mainCollage{
     padding-left: 15%;
     padding-bottom: 10rem;
     padding-top: 10rem;
-    /*background-color: orange;*/
-    border: red solid 1px;
-    /*text-align: center;*/
-    /*display: inline-block;*/
 }
 
 .aboutContainer {
-    /*padding-top: 5%;*/
     margin: 5%;
 }
 .aboutBackground {
@@ -238,7 +240,7 @@ ul {
 .site-footer {
     background: #4ca8a1;
     height: 250px;
-    text-align: center;
+    /*text-align: center;*/
 
     /*margin-top: 500px;*/
     /* padding-left: 5%;
@@ -246,12 +248,9 @@ ul {
 
 }
 
-/*.list-heading {*/
-/*!*padding-top: 10px;*!*/
-/*color: #e5e5e5;*/
-/*margin-top: 4rem;*/
-/*!*margin-left: 40px;	*!*/
-/*}*/
+.site-footer .footer-middle {
+    text-align: center;
+}
 
 .btn-social-icon {
     margin-top: 4rem;
@@ -269,7 +268,7 @@ ul {
 }
 
 .social-links {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .social-links li {

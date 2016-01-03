@@ -26,6 +26,9 @@
   "homepage": "https://github.com/JesseyEagan1/se7enFast#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "mongodb": "^2.1.2",
+    "mongoose": "^4.3.4"
   }
 }

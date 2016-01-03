@@ -8,48 +8,53 @@
 
   <title>Se7en Fast Home</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css">
-  <link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:700, 900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.11.0/bootstrap-social.css">
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/normalize.css">
 </head>
 <body class="" ng-controller='mainController'>
-
 <div class="page-wrap">
-<header class="mainHeader"></header>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+  <header class="mainHeader">
+    <div class="container">
+      <div class="row">
+        <div class="mainText col-md-6">
+          <h1 class="mainText1">SE7EN FAST</h1>
+          <h2 class="mainText2">06.07.16</h2>
+        </div>
+      </div>
     </div>
+  </header>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav links">
-            <li><a class="links" href="#">Home</a></li>
-            <li><a class="links" href="#">About</a></li>
-            <li><a class="links" href="#">How To</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a class="links" href="#">Locate</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a class="links" href="#">Register</a></li>
-            <li><a class="links" href="#">Contact</a></li>
-
-          </ul>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse nav-collapse" id=".navbar-collapse">
+        <ul class="nav navbar-nav links">
+          <li><a class="links" href="#">Home</a></li>
+          <li><a class="links" href="#">About</a></li>
+          <li><a class="links" href="#">How To</a></li>
+          <li><a class="links" href="#">Locate</a></li>
+          <li><a class="links" href="#">Register</a></li>
+          <li><a class="links" href="#">Contact</a></li>
+        </ul>
         </li>
- 
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-<!--========================TESTING====================================-->
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!--========================TESTING====================================-->
   <div class="container-fluid mainCollage">
     <div class="row">
       <div class="col-md-3 col-sm-6 col-xs-6 thumbnail thumbnail1 thumbnail3">
@@ -62,7 +67,7 @@
         <img src="../../media/friends.jpg">
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 thumbnail thumbnail1">
-        <img src="../../media/Quote.jpg">
+        <img src="../../media/jeffQuote.jpg">
       </div>
     </div>
 
@@ -74,7 +79,7 @@
         <img src="../../media/dciftar2.jpg">
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 thumbnail thumbnail1">
-        <img src="../../media/Quote2.jpg">
+        <img src="../../media/jesseyQuote.jpg">
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 thumbnail thumbnail1">
         <img src="../../media/dciftar5.jpg">
@@ -83,7 +88,7 @@
 
     <div class="row">
       <div class="col-sm-6 col-xs-6 thumbnail thumbnail2">
-        <img src="../../media/Quote4.jpg">
+        <img class="longQuote" src="../../media/laurenQuote.jpg">
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 thumbnail thumbnail1">
         <img src="../../media/peoriaiftar2.jpg">
@@ -101,53 +106,54 @@
         <img src="../../media/dciftar4.jpg">
       </div>
       <div class=" col-xs-6 thumbnail thumbnail2">
-        <img src="../../media/Quote3.jpg">
+        <img class="longQuote" src="../../media/neelamQuote.jpg">
       </div>
     </div>
   </div>
 </div>
-
 <!--======================NG VIEW===========================-->
 <!-- <div ng-view class="overflowHidden">
-    
+
 
 </div>   -->
 </div>
+<!-------------------FOOTER----------------------------------->
 <footer class="site-footer">
   <div class="container">
     <div class="row">
-      <div class="social-links col-md-2">
-        <h5 class="list-heading">CONNECT WITH US</h5>
+      <div class="social-links">
+        <!--<h5 class="list-heading">CONNECT WITH US</h5>-->
         <ul class="social">
           <li>
-            <a href="" class="btn btn-social-icon btn-twitter">
+            <a href="" class="btn btn-social-icon btn-twitter btn-lg">
               <span class="fa fa-twitter"></span>
             </a>
           </li>
           <li>
-            <a class="btn btn-social-icon btn-facebook">
+            <a class="btn btn-social-icon btn-facebook btn-lg">
               <span class="fa fa-facebook"></span>
             </a>
           </li>
           <li>
-            <a class="btn btn-social-icon btn-instagram">
+            <a class="btn btn-social-icon btn-instagram btn-lg">
               <span class="fa fa-instagram"></span>
             </a>
           </li>
         </ul>
       </div>
-      <div class="counter-body col-md-4 col-md-offset-2">
-        <h1 class="counter-heading">Days Until SE7EN FAST</h1>
+      <div class="counter-body">
         <div id="clockdiv">
           <div>
             <span class="days"></span>
-            <section class="counter-date">June, 7, 2016</section>
+            <h4 class="counter-heading">days til SE7EN FAST</h4>
           </div>
         </div>
       </div>
     </div>
   </div>
 </footer>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
 <script type="text/javascript" src="../js/countdown.js"></script>
 </body>
