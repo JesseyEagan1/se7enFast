@@ -28,6 +28,18 @@ angular.module('se7enfastApp')
                     url: "/howto",
                     templateUrl: "html/views/howto.html"
                 })
+                .state('locate', {
+                    url: "/locate",
+                    templateUrl: "html/views/construction.html"
+                })
+                .state('register', {
+                    url: "/register",
+                    templateUrl: "html/views/construction.html"
+                })
+                .state('connect', {
+                    url: "/connect",
+                    templateUrl: "html/views/contact.html"
+                })
         }
     ]);
 
