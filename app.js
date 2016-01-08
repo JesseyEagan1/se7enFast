@@ -4,6 +4,9 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/se7enfast');
 
+//Requires for submitting contact form and sending email
+//var sendgrid  = require('sendgrid')('YOUR_SENDGRID_API_KEY');
+//var email     = new sendgrid.Email(params);
 // Create Express App Object \\
 var app = express();
 
@@ -15,13 +18,35 @@ app.use(express.static(__dirname + '/public'));
 // Routes \\
 
 app.get('/', function(req, res){
-    res.sendFile('/html/index.html', {root: './public'});
+    res.sendFile('/html/main.html', {root: './public'});
 });
+
 app.get('/main', function(req, res){
     res.sendFile('/html/main.html', {root: './public'});
 });
 
+app.post('/submit', function(req, res) {
+   console.log(req.body)
+});
 
+//Contact Us submit form
+//app.post('/api/contact', function(req, res){
+//    var contactForm = {
+//        contactName: req.body.contactName,
+//        contactEmail: req.body.contactEmail,
+//        contactMessage: req.body.contactMessage
+//    }
+//});
+//
+//sendgrid.send({
+//    to:       'j.robert.eagan@gmail.com',
+//    from:     req.body.,
+//    subject:  'Contact from Se7enFast',
+//    text:     'My first email through SendGrid.'
+//}, function(err, json) {
+//    if (err) { return console.error(err); }
+//    console.log(json);
+//});
 // Creating Server and Listening for Connections \\
 var port = 3000;
 app.listen(port, function(){

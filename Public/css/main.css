@@ -47,7 +47,8 @@ body {
     height: 20rem;
     width: 100%;
     margin: 0 auto;
-    background-color: #4ca8a1;
+    /*background-color: #4ca8a1;*/
+    background: linear-gradient(120deg, #357570, #3c8680, #449790, #4ca8a1) !important;
     padding-top: 2rem;
     /*text-align: center;*/
     /*position: relative;*/
@@ -92,13 +93,13 @@ body {
 
 .navbar {
     background-color: #4ca8a1 !important;
-    border-top-color: #57102c !important;
-    border-bottom-color: #57102c !important;
+    border-top-color: #357570 !important;
+    border-bottom-color: #357570 !important;
     border-right-color: #4ca8a1 !important;
     border-left-color: #4ca8a1 !important;
     border-radius: 0 !important;
     margin-bottom: 0px;
-
+    background: linear-gradient(120deg, #357570, #3c8680, #449790, #4ca8a1) !important;
 }
 
 .links {
@@ -243,6 +244,7 @@ ul {
     color: #bcc747;
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -250,6 +252,7 @@ ul {
     color: #bcc747;
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
+    font-weight: normal;
 }
 
 .message-input {
@@ -265,15 +268,19 @@ ul {
     list-style-type: none;
 }
 
-/*.affiliate-links {*/
-    /*color: #bcc747;*/
+.affiliates2 li {
+    padding-bottom: 2rem;
+}
+
+.contact-page {
+    padding-bottom: 5%;
 }
 /* ===================FOOTER==================== */
 
 .site-footer {
     background: #4ca8a1;
     height: 250px;
-
+    background: linear-gradient(120deg, #357570, #3c8680, #449790, #4ca8a1) !important;
 }
 
 .footer-middle {
@@ -313,6 +320,7 @@ ul {
     font-family: sans-serif;
     font-weight: 100;
     width: 25%;
+    background: linear-gradient(120deg, #3c8680, #449790) !important;
     /*border: 5px solid red; */
 }
 

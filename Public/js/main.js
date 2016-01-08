@@ -34,20 +34,41 @@ angular.module('se7enfastApp')
                 })
                 .state('register', {
                     url: "/register",
-                    templateUrl: "html/views/construction.html"
+                    templateUrl: "html/views/register.html"
                 })
-                .state('connect', {
-                    url: "/connect",
-                    templateUrl: "html/views/contact.html"
-                })
+                //.state('contactSuccess', {
+                //    url: "/contactSuccess",
+                //    templateUrl: "html/views/contactSuccess.html"
+                //})
         }
     ]);
 
 
 
-angular.module('se7enfastApp').controller('mainController', ['$scope', function($scope) {
+angular.module('se7enfastApp').controller('mainController', ['$scope', '$http', function($scope, $http) {
     console.log('mainController loaded');
 
+    $scope.form = {};
+
+    $scope.formSubmit = function() {
+        console.log($scope.form)
+        //$http.post('/submit', $scope.form)
+        $http({
+            method  : 'post',
+            url     : '/api/register',
+            data    : $scope.form
+        })
+            // .then(function(returnData) {
+        //    if (returnData.data.success) {
+        //        window.location.href = "/contactSuccess";
+        //    }
+        //}
+    };
+
+
+
+
+//===================================================================//
     function getTimeRemaining(endtime) {
         var t = Date.parse(endtime) - Date.parse(new Date());
         var days = Math.floor(t / (1000 * 60 * 60 * 24));
@@ -75,7 +96,31 @@ angular.module('se7enfastApp').controller('mainController', ['$scope', function(
         var timeinterval = setInterval(updateClock, 1000);
     }
 
+
+
     var deadline = new Date('06/07/2016');
     initializeClock('clockdiv', deadline);
 
 }]);
+
+//$scope.contactForm = function() {
+//    console.log('bjkguilglyi', $scope.contactForm)
+//    $http({
+//        method  : 'post',
+//        url     : '/api/contact',
+//        data    : $scope.contactForm
+//    }).then(function(returnData) {
+//        if (returnData.data.success) {
+//            window.location.href="/contactSuccess";
+//        }
+//        else {
+//            console.log(returnData.data.error)
+//        }
+//        ;
+//
+//    }, function(err){
+//        console.log(err);
+//    }
+//    })
+//};
+
