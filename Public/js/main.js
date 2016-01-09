@@ -65,7 +65,11 @@ angular.module('se7enfastApp').controller('mainController', ['$scope', '$http', 
         //}
     };
 
-
+    $(document).ready(function () {
+        $(".navbar-nav li a").click(function(event) {
+            $(".navbar-collapse").collapse('hide');
+        });
+    });
 
 
 //===================================================================//
