@@ -36,6 +36,10 @@ angular.module('se7enfastApp')
                     url: "/register",
                     templateUrl: "html/views/register.html"
                 })
+                .state('connect', {
+                    url: "/connect",
+                    templateUrl: "html/views/contact.html"
+                })
                 //.state('contactSuccess', {
                 //    url: "/contactSuccess",
                 //    templateUrl: "html/views/contactSuccess.html"
