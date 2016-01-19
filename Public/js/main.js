@@ -8,12 +8,12 @@ angular.module('se7enfastApp')
             console.log('config loaded');
 
             $stateProvider
+                //.state('/main', {
+                //    url: "/",
+                //    templateUrl: "html/views/home.html"
+                //})
                 .state('/main', {
                     url: "",
-                    templateUrl: "html/views/home.html"
-                })
-                .state('/main2', {
-                    url: "/",
                     templateUrl: "html/views/home.html"
                 })
                 .state('home', {
