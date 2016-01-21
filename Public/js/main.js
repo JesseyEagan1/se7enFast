@@ -9,7 +9,7 @@ angular.module('se7enfastApp')
 
             $stateProvider
                 .state('/', {
-                    url: "/",
+                    url: "",
                     templateUrl: "html/views/home.html"
                 })
                 //.state('/main', {
@@ -131,4 +131,3 @@ angular.module('se7enfastApp').controller('mainController', ['$scope', '$http', 
 //    }
 //    })
 //};
-
