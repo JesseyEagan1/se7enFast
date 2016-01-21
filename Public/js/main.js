@@ -12,10 +12,10 @@ angular.module('se7enfastApp')
                     url: "/",
                     templateUrl: "html/views/home.html"
                 })
-                .state('/main', {
-                    url: "",
-                    templateUrl: "html/views/home.html"
-                })
+                //.state('/main', {
+                //    url: "",
+                //    templateUrl: "html/views/home.html"
+                //})
                 .state('home', {
                     url: "/home",
                     templateUrl: "html/views/home.html"

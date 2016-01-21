@@ -18,9 +18,9 @@ app.get('/', function(req, res){
     res.sendFile('/html/main.html', {root: './Public'});
 });
 
-app.get('/main', function(req, res){
-    res.sendFile('/html/main.html', {root: './Public'});
-});
+//app.get('/main', function(req, res){
+//    res.sendFile('/html/main.html', {root: './Public'});
+//});
 
 app.post('/submit', function(req, res) {
    console.log(req.body)
