@@ -15,11 +15,11 @@ app.use(express.static(__dirname + '/Public'));
 // Routes \\
 
 app.get('/', function(req, res){
-    res.sendFile('/html/views/home.html', {root: './Public'});
+    res.sendFile('/html/main.html', {root: './Public'});
 });
 
 app.get('/main', function(req, res){
-    res.sendFile('/html/views/home.html', {root: './Public'});
+    res.sendFile('/html/main.html', {root: './Public'});
 });
 
 app.post('/submit', function(req, res) {
