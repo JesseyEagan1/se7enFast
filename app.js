@@ -10,16 +10,16 @@ var app = express();
 // Application Configuration \\
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/Public'));
 
 // Routes \\
 
 app.get('/', function(req, res){
-    res.sendFile('/html/views/home.html', {root: './public'});
+    res.sendFile('/html/views/home.html', {root: './Public'});
 });
 
 app.get('/main', function(req, res){
-    res.sendFile('/html/views/home.html', {root: './public'});
+    res.sendFile('/html/views/home.html', {root: './Public'});
 });
 
 app.post('/submit', function(req, res) {
