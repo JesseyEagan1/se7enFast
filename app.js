@@ -1,12 +1,9 @@
 // Requires \\
 var express = require('express');
 var bodyParser = require('body-parser');
-//var mongoose = require('mongoose');
+var mongoose = require('mongoose');
 //mongoose.connect('mongodb://localhost/se7enfast');
 
-//Requires for submitting contact form and sending email
-//var sendgrid  = require('sendgrid')('YOUR_SENDGRID_API_KEY');
-//var email     = new sendgrid.Email(params);
 // Create Express App Object \\
 var app = express();
 
