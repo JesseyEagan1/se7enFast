@@ -15,35 +15,17 @@ app.use(express.static(__dirname + '/public'));
 // Routes \\
 
 app.get('/', function(req, res){
-    res.sendFile('/html/main.html', {root: './public'});
+    res.sendFile('/html/views/home.html', {root: './public'});
 });
 
 app.get('/main', function(req, res){
-    res.sendFile('/html/main.html', {root: './public'});
+    res.sendFile('/html/views/home.html', {root: './public'});
 });
 
 app.post('/submit', function(req, res) {
    console.log(req.body)
 });
 
-//Contact Us submit form
-//app.post('/api/contact', function(req, res){
-//    var contactForm = {
-//        contactName: req.body.contactName,
-//        contactEmail: req.body.contactEmail,
-//        contactMessage: req.body.contactMessage
-//    }
-//});
-//
-//sendgrid.send({
-//    to:       'j.robert.eagan@gmail.com',
-//    from:     req.body.,
-//    subject:  'Contact from Se7enFast',
-//    text:     'My first email through SendGrid.'
-//}, function(err, json) {
-//    if (err) { return console.error(err); }
-//    console.log(json);
-//});
 // Creating Server and Listening for Connections \\
 //var port = 3000;
 var port    =   process.env.PORT || 8080;
