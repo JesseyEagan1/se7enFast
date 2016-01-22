@@ -483,10 +483,10 @@ ul {
     .aboutText {
         /*padding-top: 0;*/
         margin: 0 auto;
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .aboutText span {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 }
