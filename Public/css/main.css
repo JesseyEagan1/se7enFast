@@ -436,7 +436,7 @@ ul {
 
     .aboutText {
         padding-top: 0;
-        margin-left: 0 auto;
+        margin: 0 auto;
         font-size: 3rem;
     }
 
@@ -486,7 +486,7 @@ ul {
 
     .aboutText {
         padding-top: 0;
-        margin-left: 0 auto;
+        margin: 0 auto;
         font-size: 2rem;
     }
 
