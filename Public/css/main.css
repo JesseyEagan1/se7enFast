@@ -420,7 +420,7 @@ ul {
     .mainText2 {
         font-size: 2rem;
         font-weight: 700;
-        padding-left: 55%;
+        padding-left: 15rem;
         /*text-align: center;*/
 
     }
@@ -445,7 +445,7 @@ ul {
     }
 
     .mainText1 {
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 700;
         text-align: center;
     }
