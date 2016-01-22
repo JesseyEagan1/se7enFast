@@ -91,16 +91,16 @@ html, body {
 /*============================home body================================*/
 .thumbnail1 {
     display: inline-block;
-    height: 250px;
-    width: 250px;
+    max-height: 250px;
+    max-width: 250px;
     margin: 0 auto;
 
 }
 
 .thumbnail2 {
     display: inline-block;
-    height: 250px;
-    width: 500px;
+    max-height: 250px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
