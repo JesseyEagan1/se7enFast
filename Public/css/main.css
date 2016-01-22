@@ -407,6 +407,30 @@ ul {
 }
 /*====================Media Queries==============================*/
 @media only screen and (max-width : 768px) {
+
+    .mainText1 {
+        font-size: 4rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .mainText2 {
+        font-size: 2rem;
+        font-weight: 700;
+        padding-left: 30rem;
+        /*text-align: center;*/
+
+    }
+    .aboutBackground {
+        max-width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width : 480px) {
     .aboutBackground {
         max-width: 100%;
         display: inline-block;
@@ -426,8 +450,4 @@ ul {
         /*text-align: center;*/
 
     }
-}
-
-@media only screen and (max-width : 480px) {
-
 }
