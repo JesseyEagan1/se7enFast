@@ -432,10 +432,11 @@ ul {
         max-width: 100%;
         display: inline-block;
         text-align: center;
+        margin-bottom: 0;
     }
 
     .aboutText {
-        padding-top: 0;
+        /*padding-top: 0;*/
         margin: 0 auto;
         font-size: 3rem;
     }
@@ -449,12 +450,6 @@ ul {
 @media only screen and (max-width : 480px) {
     .mainHeader {
         height: 13rem;
-    }
-
-    .aboutBackground {
-        max-width: 100%;
-        display: inline-block;
-        text-align: center;
     }
 
     .mainText1 {
@@ -482,10 +477,11 @@ ul {
         max-width: 100%;
         display: inline-block;
         text-align: center;
+        margin-bottom: 0;
     }
 
     .aboutText {
-        padding-top: 0;
+        /*padding-top: 0;*/
         margin: 0 auto;
         font-size: 2rem;
     }
