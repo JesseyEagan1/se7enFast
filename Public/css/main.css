@@ -464,8 +464,9 @@ ul {
     }
 
     .mainCollage{
+        padding-left: 10%;
         padding-right: 10%;
-        padding-bottom: 5rem;
-        padding-top: 10rem;
+        padding-bottom: 10rem;
+        padding-top: 5rem;
     }
 }
