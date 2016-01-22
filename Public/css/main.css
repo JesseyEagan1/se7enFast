@@ -420,9 +420,8 @@ ul {
     .mainText2 {
         font-size: 2rem;
         font-weight: 700;
-        /*padding-left: 15rem;*/
+        padding-left: 20rem;
         /*text-align: center;*/
-        float: right;
 
     }
     .aboutBackground {
