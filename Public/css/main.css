@@ -408,6 +408,9 @@ ul {
 /*====================Media Queries==============================*/
 @media only screen and (max-width : 768px) {
 
+    .mainHeader {
+        height: 10rem;
+    }
     .mainText1 {
         font-size: 4rem;
         font-weight: 700;
@@ -431,6 +434,10 @@ ul {
 }
 
 @media only screen and (max-width : 480px) {
+    .mainHeader {
+        height: 10rem;
+    }
+
     .aboutBackground {
         max-width: 100%;
         display: inline-block;
@@ -446,7 +453,7 @@ ul {
     .mainText2 {
         font-size: 2rem;
         font-weight: 700;
-        padding-left: 15rem;
+        padding-left: 50%;
         /*text-align: center;*/
 
     }
