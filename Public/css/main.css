@@ -417,8 +417,8 @@ ul {
     .mainText2 {
         font-size: 2rem;
         font-weight: 700;
-        /*padding-left: 30rem;*/
-        text-align: center;
+        padding-left: 50%;
+        /*text-align: center;*/
 
     }
     .aboutBackground {
