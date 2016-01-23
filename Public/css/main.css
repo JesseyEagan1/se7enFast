@@ -196,14 +196,12 @@ ul {
 .register-header h1 {
     padding-top: 5%;
     color: #bcc747;
-    /*font-size: 2rem;*/
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
 .register-header p {
-    /*padding-top: 5%;*/
     color: #bcc747;
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
@@ -406,6 +404,7 @@ ul {
     font-family: 'Raleway', sans-serif;
 }
 /*====================Media Queries==============================*/
+
 @media only screen and (max-width : 768px) {
 
     .mainHeader {
@@ -445,6 +444,27 @@ ul {
         font-size: 3.5rem;
     }
 
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
+
+    /*.register-header h1 {*/
+        /*padding-top: 5%;*/
+        /*color: #bcc747;*/
+        /*font-family: 'Raleway', sans-serif;*/
+        /*font-weight: bold;*/
+        /*text-align: center;*/
+    /*}*/
+
+    /*.register-header p {*/
+        /*color: #bcc747;*/
+        /*font-size: 2rem;*/
+        /*font-family: 'Raleway', sans-serif;*/
+        /*font-weight: bold;*/
+        /*text-align: center;*/
+        /*padding-bottom: 2%;*/
+    /*}*/
 }
 
 @media only screen and (max-width : 480px) {
@@ -488,5 +508,10 @@ ul {
 
     .aboutText span {
         font-size: 2rem;
+    }
+
+    .wrapper {
+        width: 80%;
+        margin: auto;
     }
 }
