@@ -505,9 +505,10 @@ ul {
         display: none;
     }
 
+    .constructionBody {
+        padding: 1rem;
+    }
     .constructionText {
         font-size: 3rem;
-        text-align: initial;
-        width: 100%;
     }
 }
