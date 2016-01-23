@@ -448,23 +448,9 @@ ul {
         width: 80%;
         margin: auto;
     }
-
-    /*.register-header h1 {*/
-        /*padding-top: 5%;*/
-        /*color: #bcc747;*/
-        /*font-family: 'Raleway', sans-serif;*/
-        /*font-weight: bold;*/
-        /*text-align: center;*/
-    /*}*/
-
-    /*.register-header p {*/
-        /*color: #bcc747;*/
-        /*font-size: 2rem;*/
-        /*font-family: 'Raleway', sans-serif;*/
-        /*font-weight: bold;*/
-        /*text-align: center;*/
-        /*padding-bottom: 2%;*/
-    /*}*/
+    .thumbhide {
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 480px) {
