@@ -507,6 +507,6 @@ ul {
 
     .constructionText {
         font-size: 3rem;
-        text-align: justify;
+        text-align: initial;
     }
 }
