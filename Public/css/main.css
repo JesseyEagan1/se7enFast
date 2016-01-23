@@ -504,4 +504,8 @@ ul {
     .thumbhide {
         display: none;
     }
+
+    .constructionText {
+        font-size: 3rem;
+    }
 }
