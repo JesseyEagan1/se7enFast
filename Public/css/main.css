@@ -420,6 +420,10 @@ ul {
     text-shadow: 1px 1px #000000;
 }
 
+.copyrightDisclaimerDiv {
+    padding: 2%;
+}
+
 .copyright {
     text-align: left;
     font-family: sans-serif;
