@@ -419,6 +419,39 @@ ul {
     font-family: 'Raleway', sans-serif;
     text-shadow: 1px 1px #000000;
 }
+
+.copyright {
+    float: left;
+}
+
+.disclaimer-link {
+    float: right;
+}
+
+/*Disclaimer Page*/
+
+.disclaimer h1 {
+    padding-top: 5%;
+    color: #bcc747;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+
+.disclaimer p {
+    color: #bcc747;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    padding-bottom: 2%;
+    text-shadow: 1px 1px #000000;
+}
+
+.disclaimer a {
+    color: #bcc747;
+}
 /*====================Media Queries==============================*/
 
 @media only screen and (max-width : 768px) {
