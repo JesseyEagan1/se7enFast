@@ -572,4 +572,12 @@ ul {
     .constructionText {
         font-size: 3rem;
     }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .disclaimer-link {
+        text-align: center;
+    }
 }
