@@ -315,7 +315,6 @@ ul {
     display:block;
     border:none;
     background: #bcc747;
-;
     float:right;
     color:#FFFFFF;
     padding:10px;
@@ -377,6 +376,7 @@ ul {
     width: 25%;
     background: linear-gradient(120deg, #3c8680, #449790) !important;
     line-height: .75;
+    text-shadow: 1px 1px #000000;
 }
 
 .counter-heading{
@@ -385,6 +385,7 @@ ul {
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
     padding-top: 1rem;
+    text-shadow: 1px 1px #000000;
 }
 
 #clockdiv{
@@ -395,6 +396,7 @@ ul {
     text-align: center;
     font-size: 30px;
     height: 2rem;
+    text-shadow: 1px 1px #000000;
     /*margin: 0;*/
 }
 
@@ -403,6 +405,7 @@ ul {
     font-size: 6rem;
     font-family: Raleway, sans-serif;
     padding-top: 0;
+    text-shadow: 1px 1px #000000;
     /*padding: 15px;
     border-radius: 3px;
     background: black;
@@ -414,6 +417,7 @@ ul {
     /*font-weight: 100;*/
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px #000000;
 }
 /*====================Media Queries==============================*/
 
