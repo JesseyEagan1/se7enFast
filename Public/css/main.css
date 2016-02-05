@@ -421,11 +421,15 @@ ul {
 }
 
 .copyright {
-    float: left;
+    text-align: left;
+    font-family: sans-serif;
+    color: #57102c;
 }
 
 .disclaimer-link {
-    float: right;
+    text-align: right;
+    font-family: sans-serif;
+    color: #57102c;
 }
 
 /*Disclaimer Page*/
