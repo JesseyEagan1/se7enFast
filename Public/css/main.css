@@ -421,14 +421,14 @@ ul {
 }
 
 .copyrightDisclaimerDiv {
-    padding: 2%;
+    padding-top: 2%;
 }
 
 .copyright {
     text-align: left;
     font-family: sans-serif;
     color: #57102c;
-    margin-left: 2rem;
+    /*margin-left: 2rem;*/
 }
 
 .disclaimer-link {
