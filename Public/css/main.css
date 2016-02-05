@@ -428,7 +428,7 @@ ul {
     text-align: left;
     font-family: sans-serif;
     color: #57102c;
-    margin: 2rem;
+    margin-left: 2rem;
 }
 
 .disclaimer-link {
@@ -576,7 +576,7 @@ ul {
 
     .copyright {
         text-align: center;
-        margin: 0 auto;
+        margin-left: 0 auto;
     }
 
     .disclaimer-link {
